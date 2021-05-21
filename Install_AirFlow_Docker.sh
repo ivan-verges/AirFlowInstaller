@@ -11,7 +11,7 @@ mkdir -p ./dags ./logs ./plugins
 echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
 
 # Compose the AirFlow Docker Image(s) and Initialize It
-sudo docker-compose up airflow-init
+docker-compose up airflow-init
 
 # Downloads and Sets a Script File to Facilitate the AirFlow Commands Execution
 curl -LfO "https://airflow.apache.org/docs/apache-airflow/${AIRFLOW_VERSION}/airflow.sh"

@@ -1,2 +1,2 @@
 # Stops All AirFlow Images
-sudo docker-compose down
+docker-compose down

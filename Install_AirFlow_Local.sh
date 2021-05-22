@@ -25,7 +25,7 @@ airflow db init
 # Creates the Admin User for AirFlow
 airflow users create \
     --username admin \
-    --firstname Ivan \
-    --lastname Verges \
+    --firstname AirFlow \
+    --lastname Admin \
     --role Admin \
-    --email verges1@gmail.com
+    --email airflow@admin.com
